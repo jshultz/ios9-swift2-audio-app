@@ -13,6 +13,7 @@
 		DE85C7821BD52FF000ED6938 /* audio_application.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DE85C7801BD52FF000ED6938 /* audio_application.xcdatamodeld */; };
 		DE85C7841BD52FF000ED6938 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DE85C7831BD52FF000ED6938 /* Assets.xcassets */; };
 		DE85C7871BD52FF000ED6938 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE85C7851BD52FF000ED6938 /* LaunchScreen.storyboard */; };
+		DE85C78F1BD5301500ED6938 /* mozart-k311-3-sasaki.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = DE85C78E1BD5301500ED6938 /* mozart-k311-3-sasaki.mp3 */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		DE85C7831BD52FF000ED6938 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DE85C7861BD52FF000ED6938 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DE85C7881BD52FF000ED6938 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DE85C78E1BD5301500ED6938 /* mozart-k311-3-sasaki.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = "mozart-k311-3-sasaki.mp3"; path = "../../../../Downloads/mozart-k311-3-sasaki.mp3"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		DE85C7781BD52FF000ED6938 /* audio-application */ = {
 			isa = PBXGroup;
 			children = (
+				DE85C78E1BD5301500ED6938 /* mozart-k311-3-sasaki.mp3 */,
 				DE85C7791BD52FF000ED6938 /* AppDelegate.swift */,
 				DE85C77B1BD52FF000ED6938 /* ViewController.swift */,
 				DE85C77D1BD52FF000ED6938 /* Main.storyboard */,
@@ -125,6 +128,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE85C7871BD52FF000ED6938 /* LaunchScreen.storyboard in Resources */,
+				DE85C78F1BD5301500ED6938 /* mozart-k311-3-sasaki.mp3 in Resources */,
 				DE85C7841BD52FF000ED6938 /* Assets.xcassets in Resources */,
 				DE85C77F1BD52FF000ED6938 /* Main.storyboard in Resources */,
 			);
