@@ -43,7 +43,7 @@
                                     </navigationItem>
                                 </items>
                             </navigationBar>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="PjB-Qc-ANF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="154340-004-815BAA93.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="PjB-Qc-ANF">
                                 <rect key="frame" x="65" y="99" width="470" height="305"/>
                                 <animations/>
                                 <constraints>
@@ -139,4 +139,7 @@
             <point key="canvasLocation" x="301" y="387"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="154340-004-815BAA93.jpg" width="352" height="450"/>
+    </resources>
 </document>
