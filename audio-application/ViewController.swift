@@ -25,14 +25,23 @@ class ViewController: UIViewController {
         
     }
     
-    
-    @IBAction func pauseButton(sender: AnyObject) {
-        
+    @IBAction func pausebutton(sender: AnyObject) {
         player.pause()
-        
     }
     
 
+    @IBAction func stopButton(sender: AnyObject) {
+        player.stop()
+    }
+    
+    
+    @IBOutlet weak var scrubberSlider: UISlider!
+    
+    
+    @IBAction func scrubMusic(sender: AnyObject) {
+        let playTime:NSTimeInterval = Double(self.scrubberSlider.value)
+        player.currentTime = playTime
+    }
     
     
     var player:AVAudioPlayer = AVAudioPlayer() // Create a player
@@ -45,6 +54,8 @@ class ViewController: UIViewController {
         
         do {
             try player = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioPath))
+            self.scrubberSlider.minimumValue = 0
+            self.scrubberSlider.maximumValue = Float(self.player.duration)
             
         } catch {
             print("siomething went wrong")

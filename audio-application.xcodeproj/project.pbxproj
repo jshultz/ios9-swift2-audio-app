@@ -291,6 +291,7 @@
 				DE85C78D1BD52FF000ED6938 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
