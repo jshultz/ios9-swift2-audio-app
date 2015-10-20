@@ -43,6 +43,10 @@ class ViewController: UIViewController {
         player.currentTime = playTime
     }
     
+    func updateScrubber() {
+        scrubberSlider.value = Float(player.currentTime)
+    }
+    
     
     var player:AVAudioPlayer = AVAudioPlayer() // Create a player
 
@@ -56,6 +60,8 @@ class ViewController: UIViewController {
             try player = AVAudioPlayer(contentsOfURL: NSURL(fileURLWithPath: audioPath))
             self.scrubberSlider.minimumValue = 0
             self.scrubberSlider.maximumValue = Float(self.player.duration)
+            
+            _ = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: Selector("updateScrubber"), userInfo: nil, repeats: true)
             
         } catch {
             print("siomething went wrong")
